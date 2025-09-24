@@ -1,0 +1,134 @@
+* { outline: 1px solid red !important; }
+
+:root {
+  --mod-enginepill-bg_default: #3a3a3a;
+  --mod-enginepill-fg_default: #ffffff;
+  --mod-enginepill-radius: 999px;
+  --mod-enginepill-padding_x: 10px;
+  --mod-enginepill-padding_y: 2px;
+  --mod-enginepill-font_weight: 600;
+  --mod-enginepill-close_gap: 6px;
+
+  --mod-enginepill-close_display: inline-flex;
+
+  --mod-enginepill-youtube_bg: #ff0000;
+  --mod-enginepill-spotify_bg: #1ed760;
+  --mod-enginepill-wikipedia_bg: #000000;
+  --mod-enginepill-reddit_bg: #ff4500;
+  --mod-enginepill-github_bg: #181717;
+  --mod-enginepill-googlemaps_bg: #4285f4;
+  --mod-enginepill-chatgpt_bg: #10a37f;
+  --mod-enginepill-claude_bg: #6e59d9;
+  --mod-enginepill-gemini_bg: #0000ff;
+}
+
+#urlbar-input-container .search-mode-badge {
+  border-radius: var(--mod-enginepill-radius) !important;
+  padding-block: var(--mod-enginepill-padding_y) !important;
+  padding-inline: var(--mod-enginepill-padding_x) !important;
+  font-weight: var(--mod-enginepill-font_weight) !important;
+  background: var(--mod-enginepill-bg_default) !important;
+  color: var(--mod-enginepill-fg_default) !important;
+}
+
+#urlbar-input-container .search-mode-badge .urlbar-search-mode-close {
+  display: var(--mod-enginepill-close_display) !important;
+  fill: currentColor !important;
+  margin-inline-start: var(--mod-enginepill-close_gap) !important;
+  opacity: 0.9 !important;
+}
+
+#urlbar-input-container .search-mode-badge:hover { filter: brightness(1.05) !important; }
+#urlbar-input-container .search-mode-badge:active { filter: brightness(0.95) !important; }
+
+#urlbar .searchbar-engine-one-off-item {
+  border-radius: var(--mod-enginepill-radius) !important;
+  background: color-mix(in srgb, var(--mod-enginepill-bg_default) 92%, transparent) !important;
+  color: var(--mod-enginepill-fg_default) !important;
+}
+
+#urlbar-input-container .search-mode-badge,
+#urlbar .searchbar-engine-one-off-item {
+  transition: filter 120ms ease-in-out;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="YouTube"],
+  [tooltiptext*="YouTube"],
+  :has([aria-label*="YouTube"]),
+  :has([tooltiptext*="YouTube"])
+) {
+  background: var(--mod-enginepill-youtube_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="Spotify"],
+  [tooltiptext*="Spotify"],
+  :has([aria-label*="Spotify"]),
+  :has([tooltiptext*="Spotify"])
+) {
+  background: var(--mod-enginepill-spotify_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="Wikipedia"],
+  [tooltiptext*="Wikipedia"],
+  :has([aria-label*="Wikipedia"]),
+  :has([tooltiptext*="Wikipedia"])
+) {
+  background: var(--mod-enginepill-wikipedia_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="Reddit"],
+  [tooltiptext*="Reddit"],
+  :has([aria-label*="Reddit"]),
+  :has([tooltiptext*="Reddit"])
+) {
+  background: var(--mod-enginepill-reddit_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="GitHub"],
+  [tooltiptext*="GitHub"],
+  :has([aria-label*="GitHub"]),
+  :has([tooltiptext*="GitHub"])
+) {
+  background: var(--mod-enginepill-github_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="Google Maps"],
+  [tooltiptext*="Google Maps"],
+  :has([aria-label*="Google Maps"]),
+  :has([tooltiptext*="Google Maps"])
+) {
+  background: var(--mod-enginepill-googlemaps_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="ChatGPT"],
+  [tooltiptext*="ChatGPT"],
+  :has([aria-label*="ChatGPT"]),
+  :has([tooltiptext*="ChatGPT"])
+) {
+  background: var(--mod-enginepill-chatgpt_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="Claude"],
+  [tooltiptext*="Claude"],
+  :has([aria-label*="Claude"]),
+  :has([tooltiptext*="Claude"])
+) {
+  background: var(--mod-enginepill-claude_bg) !important;
+}
+
+:is(#urlbar-input-container .search-mode-badge, #urlbar .searchbar-engine-one-off-item):is(
+  [aria-label*="Gemini"],
+  [tooltiptext*="Gemini"],
+  :has([aria-label*="Gemini"]),
+  :has([tooltiptext*="Gemini"])
+) {
+  background: var(--mod-enginepill-gemini_bg) !important;
+}
