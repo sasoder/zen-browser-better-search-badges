@@ -1,121 +1,44 @@
 [
   {
-    "property": "mod.enginepill.bg_default",
-    "label": "Default pill background",
+    "property": "mod.searchbadge.fontsize",
+    "label": "Search badge font size (e.g. 15px)",
     "type": "string",
-    "placeholder": "e.g. #3a3a3a",
-    "defaultValue": "#3a3a3a"
+    "defaultValue": "15px"
   },
   {
-    "property": "mod.enginepill.fg_default",
-    "label": "Default pill text color",
+    "property": "mod.searchbadge.paddingvertical",
+    "label": "Search badge vertical padding (e.g. 6px)",
     "type": "string",
-    "placeholder": "e.g. #ffffff",
-    "defaultValue": "#ffffff"
-  },
-  {
-    "property": "mod.enginepill.radius",
-    "label": "Pill radius",
-    "type": "string",
-    "placeholder": "e.g. 999px",
-    "defaultValue": "999px"
-  },
-  {
-    "property": "mod.enginepill.padding_x",
-    "label": "Horizontal padding",
-    "type": "string",
-    "placeholder": "e.g. 10px",
-    "defaultValue": "10px"
-  },
-  {
-    "property": "mod.enginepill.padding_y",
-    "label": "Vertical padding",
-    "type": "string",
-    "placeholder": "e.g. 2px",
-    "defaultValue": "2px"
-  },
-  {
-    "property": "mod.enginepill.font_weight",
-    "label": "Font weight",
-    "type": "string",
-    "placeholder": "e.g. 600",
-    "defaultValue": "600"
-  },
-  {
-    "property": "mod.enginepill.close_gap",
-    "label": "Gap before the × icon",
-    "type": "string",
-    "placeholder": "e.g. 6px",
     "defaultValue": "6px"
   },
   {
-    "property": "mod.enginepill.close_display",
-    "label": "Remove × icon (set to none to hide)",
+    "property": "mod.searchbadge.paddinghorizontal",
+    "label": "Search badge horizontal padding (e.g. 13px)",
     "type": "string",
-    "placeholder": "inline-flex or none",
-    "defaultValue": "inline-flex"
+    "defaultValue": "13px"
   },
   {
-    "property": "mod.enginepill.youtube_bg",
-    "label": "YouTube background",
+    "property": "mod.searchbadge.backgroundcolor",
+    "label": "Search badge background color",
     "type": "string",
-    "placeholder": "e.g. #ff0000",
-    "defaultValue": "#ff0000"
+    "defaultValue": "#d2d2d2"
   },
   {
-    "property": "mod.enginepill.spotify_bg",
-    "label": "Spotify background",
+    "property": "mod.searchbadge.fontcolor",
+    "label": "Search badge font color",
     "type": "string",
-    "placeholder": "e.g. #1ed760",
-    "defaultValue": "#1ed760"
+    "defaultValue": "#121212"
   },
   {
-    "property": "mod.enginepill.wikipedia_bg",
-    "label": "Wikipedia background",
+    "property": "mod.searchbadge.shadowcolor",
+    "label": "Search badge shadow color",
     "type": "string",
-    "placeholder": "e.g. #000000",
-    "defaultValue": "#000000"
+    "defaultValue": "#ffffff5e"
   },
   {
-    "property": "mod.enginepill.reddit_bg",
-    "label": "Reddit background",
+    "property": "mod.searchbadge.shadowstyle",
+    "label": "Search badge shadow style (e.g. 0 0 20px)",
     "type": "string",
-    "placeholder": "e.g. #ff4500",
-    "defaultValue": "#ff4500"
-  },
-  {
-    "property": "mod.enginepill.github_bg",
-    "label": "GitHub background",
-    "type": "string",
-    "placeholder": "e.g. #181717",
-    "defaultValue": "#181717"
-  },
-  {
-    "property": "mod.enginepill.googlemaps_bg",
-    "label": "Google Maps background",
-    "type": "string",
-    "placeholder": "e.g. #4285f4",
-    "defaultValue": "#4285f4"
-  },
-  {
-    "property": "mod.enginepill.chatgpt_bg",
-    "label": "ChatGPT background",
-    "type": "string",
-    "placeholder": "e.g. #10a37f",
-    "defaultValue": "#10a37f"
-  },
-  {
-    "property": "mod.enginepill.claude_bg",
-    "label": "Claude background",
-    "type": "string",
-    "placeholder": "e.g. #6e59d9",
-    "defaultValue": "#6e59d9"
-  },
-  {
-    "property": "mod.enginepill.gemini_bg",
-    "label": "Gemini background",
-    "type": "string",
-    "placeholder": "e.g. #0000ff",
-    "defaultValue": "#0000ff"
+    "defaultValue": "0 0 20px"
   }
 ]
