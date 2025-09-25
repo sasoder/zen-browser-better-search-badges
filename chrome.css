@@ -1,7 +1,7 @@
 #urlbar-search-mode-indicator {
   display: inline-flex !important;
   align-items: center !important;
-  padding: var(--mod-searchbadge-paddingvertical, 6px)
+  padding: var(--mod-searchbadge-paddingvertical, 5px)
     var(--mod-searchbadge-paddinghorizontal, 13px) !important;
   border-radius: 9999px !important;
   background-color: var(--mod-searchbadge-backgroundcolor, #d2d2d2) !important;

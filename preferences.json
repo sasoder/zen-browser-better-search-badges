@@ -9,7 +9,7 @@
     "property": "mod.searchbadge.paddingvertical",
     "label": "Search badge vertical padding (e.g. 6px)",
     "type": "string",
-    "defaultValue": "6px"
+    "defaultValue": "5px"
   },
   {
     "property": "mod.searchbadge.paddinghorizontal",
