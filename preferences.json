@@ -7,9 +7,9 @@
   },
   {
     "property": "mod.searchbadge.paddingvertical",
-    "label": "Search badge vertical padding (e.g. 6px)",
+    "label": "Search badge vertical padding (e.g. 4.5px)",
     "type": "string",
-    "defaultValue": "5px"
+    "defaultValue": "4.5px"
   },
   {
     "property": "mod.searchbadge.paddinghorizontal",
@@ -21,19 +21,19 @@
     "property": "mod.searchbadge.backgroundcolor",
     "label": "Search badge background color",
     "type": "string",
-    "defaultValue": "#d2d2d2"
+    "defaultValue": "#64ab9c"
   },
   {
     "property": "mod.searchbadge.fontcolor",
     "label": "Search badge font color",
     "type": "string",
-    "defaultValue": "#121212"
+    "defaultValue": "#ffffff"
   },
   {
     "property": "mod.searchbadge.shadowcolor",
     "label": "Search badge shadow color",
     "type": "string",
-    "defaultValue": "#ffffff5e"
+    "defaultValue": "#64ab9c5e"
   },
   {
     "property": "mod.searchbadge.shadowstyle",
