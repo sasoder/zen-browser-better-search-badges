@@ -1,11 +1,13 @@
 #urlbar-search-mode-indicator {
-  padding: 4px 10px !important;
+  padding: var(--mod-searchbadge-paddingvertical)
+    var(--mod-searchbadge-paddinghorizontal) !important;
   border-radius: 9999px !important;
-  background: #64ab9c !important;
-  color: #ffffff !important;
+  background: var(--mod-searchbadge-backgroundcolor) !important;
+  color: var(--mod-searchbadge-fontcolor) !important;
   font-weight: 500;
-  box-shadow: 0 0 12px #64ab9c4e;
-  font-size: 13px;
+  box-shadow: var(--mod-searchbadge-shadowstyle)
+    var(--mod-searchbadge-shadowcolor);
+  font-size: var(--mod-searchbadge-fontsize);
 }
 
 #urlbar-search-mode-indicator-close.close-button {
