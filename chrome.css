@@ -9,7 +9,7 @@
   font-weight: 500 !important;
   -moz-appearance: none !important;
   background-image: none !important;
-  box-shadow: var(--mod-searchbadge-shadowstyle, 0 0 20px)
+  box-shadow: var(--mod-searchbadge-shadowstyle, 0 0 14px)
     var(--mod-searchbadge-shadowcolor, #ffffff5e) !important;
   font-size: var(--mod-searchbadge-fontsize, 15px) !important;
 }
